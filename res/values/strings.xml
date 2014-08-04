@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JagdTest</string>
+    <string name="action_settings">settings</string>
+    <string name="action_endtest">End test</string>
+    <string name="ma_study">Study questions</string>
+    <string name="ma_train">Training</string>
+    <string name="ma_exam">Exam</string>
+    <string name="no_answer">Not answered.</string>
+    <string name="ma_options">Options</string>
+    <string name="title_activity_study">Study Questions</string>
+    <string name="play">play</string>
+    <string name="replay">replay</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_options">Options</string>
+    <string name="your_answer">Type answer here</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next">Next &gt;&gt;</string>
+    <string name="closed_question">The question is answered and closed.</string>
+    <string name="alert_confirm_title">Confirm</string>
+    <string name="end_test">Sure to end test now?</string>
+    
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:background="@drawable/background_view_rounded_single">
+    <!-- Timer Display 
+    
+    android:background="@color/player_background"-->
+    <LinearLayout
+        android:id="@+id/timerDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <!-- Current Duration Label -->
+        <TextView
+            android:id="@+id/songCurrentDurationLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="#eeeeee"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:src="@drawable/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:contentDescription="@string/play"/>
+        <!-- Total Duration Label -->
+        <TextView
+            android:id="@+id/songTotalDurationLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#04cbde"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <!-- Progress Bar/Seek bar 
+    android:progressDrawable="@drawable/seekbar_progress"
+         android:thumb="@drawable/ic_contr"
+         android:paddingLeft="6dp"
+         android:paddingRight="6dp"
+         -->
+    <SeekBar
+         android:id="@+id/songProgressBar"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:progressDrawable="@drawable/progressbar"
+         android:secondaryProgress="0"/>
+</LinearLayout>

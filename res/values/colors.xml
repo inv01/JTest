@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawer">#E5FFCC</color>
+    <color name="rosa">#FFC0CB</color>
+    <color name="kornblumen">#6495ED</color>
+    <color name="gray">#B0C4DE</color>
+    <color name="chertopoloh">#D8BFD8</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="base">#FFFFFF</color>
+    <color name="coral_wtk">#F08080</color>
+    <color name="orange_hnd">#F4A460</color>
+    <color name="yellow_wffn">#F0E68C</color>
+    <color name="green_gstz">#98FB98</color>
+    <color name="blue_brtm">#AFEEEE</color>
+    <color name="violet_okol">#EE82EE</color>
+    <color name="player_background">#B0C4DE</color>
+    
+    <color name="default_screen_bg">#20324a</color>
+    <color name="rounded_container_bg">#80000000</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+</resources>
